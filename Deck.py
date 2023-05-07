@@ -1,10 +1,10 @@
 import random
-from Card import Card
+from card import Card
 
 class Deck:
     def __init__(self):
         self.cards = []
-        suits = ["spades", "clubs", "hearts", "diamonds"]
+        suits = ["Spades", "Clubs", "Hearts", "Diamonds"]
         ranks = [
                 {"rank": "A", "value": 11},
                 {"rank": "2", "value": 2},
